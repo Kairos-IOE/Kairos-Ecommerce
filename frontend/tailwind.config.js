@@ -3,20 +3,20 @@ export const content = [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
 ];
-export const theme = {
+export default {
+  theme: {
     extend: {
-        colors: {
-            kairosDark: "#0B0F19",
-            kairosRed: "#E11D2E",
-            kairosGray: "#1F2937",
-            kairosLight: "#F9FAFB",
-        },
-        boxShadow: {
-        kairos: "0 4px 20px rgba(0,0,0,0.08)",
-        },
-        borderRadius: {
-            xl: "12px",
-        },
-    },
+      colors: {
+        kairosRed: "#E53935",
+        kairosDark: "#0B0F1A",
+        kairosLight: "#F5F6F8",
+        kairosBorder: "#E5E7EB"
+      },
+      boxShadow: {
+        kairos: "0 2px 8px rgba(0,0,0,0.04)",
+        kairosHover: "0 4px 16px rgba(0,0,0,0.08)"
+      }
+    }
+  }
 };
 export const plugins = [];
