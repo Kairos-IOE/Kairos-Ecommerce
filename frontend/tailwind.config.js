@@ -12,7 +12,7 @@ export const theme = {
             kairosLight: "#F9FAFB",
         },
         boxShadow: {
-            kairos: "0 4px 20px rgba(0,0,0,0.1)",
+        kairos: "0 4px 20px rgba(0,0,0,0.08)",
         },
         borderRadius: {
             xl: "12px",
